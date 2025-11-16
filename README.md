@@ -4,10 +4,6 @@ If you’re looking for a fully automated meeting assistant, the **AI Meeting In
 
 This project uses **three intelligent AI agents** (Joiner, Brain, Action) to create an end-to-end meeting automation pipeline.
 
----
-
-# AI Meeting Intelligence Suite (3-Agent System)
-
 ## Overview
 
 The **AI Meeting Intelligence Suite** is an advanced multi-agent application that automatically joins online meetings, generates high-quality transcripts, extracts decisions and tasks, and updates project management tools without human intervention.
@@ -91,7 +87,7 @@ Step 2: Install Dependencies
 chmod +x setup.sh
 ./setup.sh
 
-
+```
 This script will:
 
 Set up a Python virtual environment
@@ -108,11 +104,13 @@ Launch the main application
 
 Step 3: Running the Application Manually
 # Activate environment
-source .venv/bin/activate
+```bash
+source .venv/bin/activate 
+
 
 # Start the application
 python main.py
-
+```
 Usage
 Step 1 — Join Meeting
 
@@ -168,34 +166,39 @@ Calendar events
 
 Email follow-ups
 
-Customization
+# Customization
 Changing Whisper Model
 
 Edit config.py:
+```bash
 
 WHISPER_MODEL = "medium"
 
 Switching LLM Model
-
+```
 Modify:
+```bash
 
 LLM_MODEL = "gpt-4"
 # or "llama3.1" (Ollama)
 # or "mixtral" (Groq)
-
+```
 Editing Agent Prompts
 
 You can modify the behavior of each agent in:
+```bash
 
 agents/joiner_agent.py
 agents/brain_agent.py
 agents/action_agent.py
-
+```
 Adding More Integrations
 
 Extend:
+```bash
 
 integrations/notion.py
 integrations/trello.py
 integrations/calendar.py
 integrations/email.py
+```
