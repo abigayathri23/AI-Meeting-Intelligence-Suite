@@ -1,7 +1,6 @@
 # AI Meeting Intelligence Suite – 3-Agent Automation System
 
 If you’re looking for a fully automated meeting assistant, the **AI Meeting Intelligence Suite** is a complete multi-agent system that joins your meetings, understands everything discussed, and automatically takes actions across Notion, Trello, Google Calendar, and Gmail — without any manual effort.
-
 This project uses **three intelligent AI agents** (Joiner, Brain, Action) to create an end-to-end meeting automation pipeline.
 
 ## Overview
@@ -85,80 +84,76 @@ chmod +x setup.sh
 This script will:
 
 Set up a Python virtual environment
-
 Install all required packages
-
 Install FFmpeg if missing
-
 Download Whisper models
-
 Configure APIs
-
 Launch the main application
 
 Step 3: Running the Application Manually
 # Activate environment
 ```bash
+#activate application
 source .venv/bin/activate 
 
 
 # Start the application
 python main.py
 ```
-Usage
-Step 1 — Join Meeting
+# Usage
 
+Step 1 — Join Meeting
 The system automatically joins using:
 
-Zoom link
+•́Zoom link
 
-Google Meet link
+•́Google Meet link
 
 The Joiner Agent:
 
-Records audio
+•́Records audio
 
-Separates speakers
+•́Separates speakers
 
-Creates transcript file
+•́Creates transcript file
 
 Step 2 — Brain Agent Processing
 
 It generates:
 
-Clean transcript
+•́Clean transcript
 
-Short and detailed summary
+•́Short and detailed summary
 
-List of tasks with deadlines
+•́List of tasks with deadlines
 
-Decision log
+•́Decision log
 
-Risks and blockers
+•́Risks and blockers
 
 Step 3 — Action Agent Execution
 
 Automatically:
 
-Creates tasks in Notion/Trello
+•́Creates tasks in Notion/Trello
 
-Sends summary emails
+•́Sends summary emails
 
-Adds deadlines to Calendar
+•́Adds deadlines to Calendar
 
-Updates existing project pages
+•́Updates existing project pages
 
 You will receive:
 
-Transcript.txt
+•́Transcript.txt
 
-Summary.md
+•́Summary.md
 
-Action_Items.json
+•́Action_Items.json
 
-Calendar events
+•́Calendar events
 
-Email follow-ups
+•́Email follow-ups
 
 # Customization
 Changing Whisper Model
