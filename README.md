@@ -202,3 +202,9 @@ integrations/trello.py
 integrations/calendar.py
 integrations/email.py
 ```
+# Use-Cases
+
+Corporate teams who hold frequent online meetings and struggle with manual note-taking and follow-ups.
+Education: professors/teachers who record online lectures and want transcripts, summaries, action items for students.
+Project-management: automating task tracking and updates from meeting outputs.
+Research groups: capture all decisions, tasks, deadlines directly from discussions.
