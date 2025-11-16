@@ -16,8 +16,6 @@ The system includes:
 
 This tool is ideal for teams, students, and businesses who want to automate meeting notes, follow-ups, and workflows.
 
----
-
 ## Features
 
 - **Automatic Meeting Participation**  
@@ -48,8 +46,6 @@ This tool is ideal for teams, students, and businesses who want to automate meet
 - **User-Friendly Web UI**  
   Optional Gradio/React interface for viewing outputs.
 
----
-
 ## Requirements
 
 - Python 3.x  
@@ -64,13 +60,11 @@ This tool is ideal for teams, students, and businesses who want to automate meet
 - Gradio (optional frontend)  
 - Requests library for API calls  
 
----
 
 ## Pre-Installation
 
 Before running the application, ensure you have an LLM backend available.
 
-If using **Ollama**:
 
 ```bash
 # Example: Run Llama 3.1 locally
